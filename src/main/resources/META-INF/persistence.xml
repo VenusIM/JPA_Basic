@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- JPA 2.2버전을 사용한다. -->
+<persistence version="2.2"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <!-- JPA 이름 -->
+    <persistence-unit name="hello">
+        <properties>
+            <!--
+            필수 속성, 데이터베이스 접근 정보
+            javax는 다른 라이브러리를 사용하여도 적용 가능하다.
+            그러나 hibernate가 붙은 것은 하이버네이트 전용이다.
+            -->
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/test"/>
+
+            <!--
+            데이터베이스 방언, JPA는 특정 데이터베이스에 종속적이지 않게 설계되어 있다.
+            표준 SQL이 아닌 특정 데이터베이스의 기능 방언이라고 표현했다.
+            Mysql5DBDialect, Oracle10gDialect 매핑이 다 되어 있고 커스텀이 가능하다.
+            -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+
+            <!-- 옵션 -->
+            <!-- DB에 쿼리가 나가는 것을 확인 가능하게 해주는 옵션 -->
+            <property name="hibernate.show_sql" value="true"/>
+            <!-- 보여지는 쿼리를 보기 좋게 만들어준다. -->
+            <property name="hibernate.format_sql" value="true"/>
+            <!-- 해당 쿼리가 왜 나온것인지 주석을 보여준다. -->
+            <property name="hibernate.use_sql_comments" value="true"/>
+            <!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+        </properties>
+    </persistence-unit>
+</persistence>

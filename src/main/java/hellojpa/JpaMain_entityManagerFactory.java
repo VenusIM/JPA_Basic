@@ -6,7 +6,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import java.util.List;
 
-public class JpaMain {
+public class JpaMain_entityManagerFactory {
     public static void main(String[] args) {
 
         //xml에서 기술했던 persistence name을 넣어준다.

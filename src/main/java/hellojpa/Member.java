@@ -11,9 +11,16 @@ public class Member {
 
     @Id
     private Long id;
-    
    // @Column(name = "username") // 컬럼명이 다를 경우 설정이 가능한 어노테이션
     private String name;
+
+    public Member() {
+    }
+
+    public Member(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public Long getId() {
         return id;

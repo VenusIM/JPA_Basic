@@ -8,4 +8,4 @@ Velog 와 프로젝트를 통해 내용을 정리하며 학습중 입니다.
 
 <br/>
 
-[정리노트](https://velog.io/@yim3370/JPA-%EA%B8%B0%EC%B4%88-%EC%9E%91%EC%84%B1%EC%A4%91)
+[정리노트](**https://velog.io/@yim3370/JPA-%EA%B8%B0%EC%B4%88-%EC%9E%91%EC%84%B1%EC%A4%91**)

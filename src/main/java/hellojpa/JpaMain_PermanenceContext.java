@@ -5,7 +5,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class JpaMain_permanenceContext {
+public class JpaMain_PermanenceContext {
     public static void main(String[] args) {
 
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("hello");

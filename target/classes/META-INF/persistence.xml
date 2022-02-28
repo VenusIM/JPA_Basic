@@ -33,7 +33,10 @@
             <property name="hibernate.use_sql_comments" value="true"/>
             <!-- 사이즈 만큼 버퍼에 쌓아서 한번에 쿼리를 전송할 수 있다. -->
             <property name="hibernate.jdbc.batch_size" value="10"/>
-            <!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <!--<property name="hibernate.hbm2ddl.auto" value="create-drop" />-->
+            <!--<property name="hibernate.hbm2ddl.auto" value="update" />-->
+            <!--<property name="hibernate.hbm2ddl.auto" value="validate" />-->
         </properties>
     </persistence-unit>
 </persistence>

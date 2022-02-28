@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ac0e94-4b6d-48b6-b843-e98e1c7da8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_permanenceContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_Detached.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_Flush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_entityManagerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_entityManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_EntityManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_permanenceContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_PermanenceContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="2.permanenceContext" />
+                    <option name="lastUsedInstant" value="1645978937" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="study" />
                     <option name="lastUsedInstant" value="1645971365" />
@@ -87,9 +90,9 @@
       <recent name="C:\Users\yim33\study\ex1-hello-jap\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JpaMain_permanenceContext">
-    <configuration name="JpaMain_entityManagerFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain_entityManagerFactory" />
+  <component name="RunManager">
+    <configuration name="JpaMain_EntityManagerFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain_EntityManagerFactory" />
       <module name="ex1-hello-jpa" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaMain_permanenceContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain_permanenceContext" />
+    <configuration name="JpaMain_PermanenceContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain_PermanenceContext" />
       <module name="ex1-hello-jpa" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JpaMain_permanenceContext" />
-        <item itemvalue="Application.JpaMain_entityManagerFactory" />
+        <item itemvalue="Application.JpaMain_PermanenceContext" />
+        <item itemvalue="Application.JpaMain_EntityManagerFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +134,8 @@
       <updated>1645966022076</updated>
       <workItem from="1645966023418" duration="5865000" />
       <workItem from="1645971941687" duration="6000" />
-      <workItem from="1645971983289" duration="5784000" />
+      <workItem from="1645971983289" duration="6677000" />
+      <workItem from="1646042551139" duration="1486000" />
     </task>
     <servers />
   </component>

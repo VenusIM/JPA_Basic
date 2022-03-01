@@ -14,8 +14,8 @@ public class JpaMain_Flush {
         EntityTransaction entityTransaction = entityManager.getTransaction();
         entityTransaction.begin();
         try {
-            Member member = new Member(200L, "member200");
-            entityManager.persist(member);
+//            Member member = new Member(200L, "member200");
+//            entityManager.persist(member);
 
             //commit 이전 flush를 직접 호출하여 query를 전송한다.
             entityManager.flush();

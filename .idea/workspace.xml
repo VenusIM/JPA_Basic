@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ac0e94-4b6d-48b6-b843-e98e1c7da8aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_PK_Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/PK_Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_Flush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain_Flush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_Detached.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_Detached.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_Flush.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_Flush.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_entityManagerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_entityManagerFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_permanenceContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/JpaMain_permanenceContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hellojpa/Member.class" afterDir="false" />
@@ -24,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +50,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="4.EntityMapping" />
+                    <option name="lastUsedInstant" value="1646052221" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="3.FlushAndDetached" />
                     <option name="lastUsedInstant" value="1646046920" />
@@ -102,9 +108,22 @@
       <recent name="C:\Users\yim33\study\ex1-hello-jap\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JpaMain_PermanenceContext">
+  <component name="RunManager" selected="Application.JpaMain_PK_Mapping">
     <configuration name="JpaMain_EntityManagerFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain_EntityManagerFactory" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hellojpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaMain_PK_Mapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain_PK_Mapping" />
       <module name="ex1-hello-jpa" />
       <extension name="coverage">
         <pattern>
@@ -131,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JpaMain_PK_Mapping" />
         <item itemvalue="Application.JpaMain_PermanenceContext" />
         <item itemvalue="Application.JpaMain_EntityManagerFactory" />
       </list>
@@ -147,7 +167,8 @@
       <workItem from="1645966023418" duration="5865000" />
       <workItem from="1645971941687" duration="6000" />
       <workItem from="1645971983289" duration="6677000" />
-      <workItem from="1646042551139" duration="5809000" />
+      <workItem from="1646042551139" duration="7205000" />
+      <workItem from="1646122047348" duration="4303000" />
     </task>
     <servers />
   </component>

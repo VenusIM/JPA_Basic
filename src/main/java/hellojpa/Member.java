@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
 
-@Entity // JPA 사용시 필수 어노테이션.
+// @Entity // JPA 사용시 필수 어노테이션.
 // @Table(name = "USER") // 테이블 이름이 다를 경우 설정이 가능한 어노테이션
 public class Member {
 
@@ -52,10 +52,21 @@ public class Member {
     @Transient
     private int temp;
 
+    @Transient
+    private String name;
+
     public Member() {
     }
 
-     /*
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /*
     @Id
     private Long id;
     @Column(name = "username") // 컬럼명이 다를 경우 설정이 가능한 어노테이션

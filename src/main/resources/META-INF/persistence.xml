@@ -22,7 +22,10 @@
             표준 SQL이 아닌 특정 데이터베이스의 기능 방언이라고 표현했다.
             Mysql5DBDialect, Oracle10gDialect 매핑이 다 되어 있고 커스텀이 가능하다.
             -->
+
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+<!--            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>-->
+<!--            <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>-->
 
             <!-- 옵션 -->
             <!-- DB에 쿼리가 나가는 것을 확인 가능하게 해주는 옵션 -->
@@ -33,7 +36,10 @@
             <property name="hibernate.use_sql_comments" value="true"/>
             <!-- 사이즈 만큼 버퍼에 쌓아서 한번에 쿼리를 전송할 수 있다. -->
             <property name="hibernate.jdbc.batch_size" value="10"/>
-            <!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+            <property name="hibernate.hbm2ddl.auto" value="create" />
+<!--            <property name="hibernate.hbm2ddl.auto" value="create-drop" />-->
+<!--            <property name="hibernate.hbm2ddl.auto" value="update" />-->
+            <!--<property name="hibernate.hbm2ddl.auto" value="validate" />-->
         </properties>
     </persistence-unit>
 </persistence>

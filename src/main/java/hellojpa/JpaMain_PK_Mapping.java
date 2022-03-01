@@ -5,7 +5,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class JpaMain_Flush {
+public class JpaMain_PK_Mapping {
     public static void main(String[] args) {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("hello");
 
@@ -13,21 +13,19 @@ public class JpaMain_Flush {
 
         EntityTransaction entityTransaction = entityManager.getTransaction();
         entityTransaction.begin();
+
         try {
-//            Member member = new Member(200L, "member200");
-//            entityManager.persist(member);
+            PK_Member member = new PK_Member();
+            member.setUsername("C");
 
-            //commit 이전 flush를 직접 호출하여 query를 전송한다.
-            entityManager.flush();
-
-            System.out.println("--------------");
+            entityManager.persist(member);
             entityTransaction.commit();
+
         } catch (Exception e) {
             entityTransaction.rollback();
         } finally {
             entityManager.close();
         }
-
         entityManagerFactory.close();
     }
 }
